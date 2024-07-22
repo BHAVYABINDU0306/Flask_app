@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+form button[type="submit"] {
+    background-color: green;
+}
+
+form button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+.secret-message, .thankyou-message {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thankyou-message img {
+    width: 100px;
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
